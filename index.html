@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
     <title>Facebook - Bring the world closer</title>
-    <link rel="stylesheet" href="lib/all.min.css">
     <link rel="stylesheet" href="lib/container.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -62,7 +61,7 @@
                     <li>
                         <a href="#" class="flex">
                             <img class="profile-img" src="img/users/profile.jpg" alt="">
-                            <span>Sikder Mohammad Arif</span>
+                            <span>Sikder</span>
                         </a>
                     </li>
                     <li>
@@ -81,17 +80,219 @@
     </header>
     <!-- Main area -->
     <main class="full-width">
-        <section class="trim-width">
-            <div class="main-left">
-                <div class="left-menu-items"></div>
-                <div class="left-users-groups"></div>
+        <section class="trim-width flex align-top">
+            <aside class="main-left">
+                <div class="left-menu-items">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img class="left-profile-img" src="img/users/profile.jpg" alt="">
+                                <span id="username">Sikder Mohammad Arif</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/friends.png" alt=""> Friends</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/group.png" alt="">Groups</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/page.png" alt="">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/market.png" alt="">Market</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/video.png" alt="">Watch</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/messenger.png" alt="">Messenger</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="hr">
+                <div class="left-users-groups">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/groupimg/g1.jpg" alt=""> BM College</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/groupimg/g2.png" alt=""> Mirachle</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/groupimg/g3.jpg" alt=""> Jibonta Tajpata</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Footer area -->
+                <footer>
+                    <small>All rights reseved. <br> Copyright &copy; 2021 Facebook</small>
+                </footer>
+            </aside>
+            <div class="main-middle">
+                <!-- Status Bar  Posting Option -->
+                <div class="status-editor">
+                    <div class="input-box flex align-top">
+                        <img class="profile-img" src="img/users/profile.jpg" alt="">
+                        <textarea name="" id="" rows="5" placeholder="What's on your mind?"></textarea>
+                    </div>
+                    <hr class="hr">
+                    <div class="tool-box flex">
+                        <div class="live flex">
+                            <img src="img/editorboximg/cam.png" alt="">
+                            <span>Live Video</span>
+                        </div>
+                        <div class="photo flex">
+                            <img src="img/editorboximg/photo.png" alt="">
+                            <span>Photo/Video</span>
+                        </div>
+                        <div class="feel flex">
+                            <img src="img/editorboximg/activity.png" alt="">
+                            <span>Feeling/Activity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Status Boxes -->
+
+                <article class="user-status">
+                    <div class="info flex">
+                        <img class="profile-img" src="img/users/profile.jpg" alt="">
+                        <div class="status-info flex">
+                            <a href="#">Siker Mohammad Arif</a>
+                            <div class="status-privacy flex">
+                                <img src="img/world.png" alt="">
+                                <small>20 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status-text">
+                        <h4>Hi Listen to me</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, esse!</p>
+                    </div>
+                    <div class="status-media">
+                        <img src="img/statusimg/post.jfif" alt="">
+                    </div>
+                    <div class="like-box">
+                        <hr class="hr">
+                        <ul class="flex like-box-items">
+                            <li>
+                                <a href="" class="flex">
+                                    <img src="img/react/like.png" alt=""> React
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="flex">
+                                    <img src="img/react/comment.png" alt=""> Comment
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="flex">
+                                    <img src="img/react/share.png" alt=""> Share
+                                </a>
+                            </li>
+                        </ul>
+                        <hr class="hr">
+                        <div class="comment-input flex">
+                            <img class="profile-img" src="img/users/profile.jpg" alt="">
+                            <input type="text" placeholder="Write your comment">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="user-status">
+                    <div class="info flex">
+                        <img class="profile-img" src="img/users/profile.jpg" alt="">
+                        <div class="status-info flex">
+                            <a href="#">Siker Mohammad Arif</a>
+                            <div class="status-privacy flex">
+                                <img src="img/world.png" alt="">
+                                <small>20 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status-text">
+                        <h4>Hi Listen to me</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, esse!</p>
+                    </div>
+                    <div class="status-media">
+                        <img src="img/statusimg/post.jfif" alt="">
+                    </div>
+                    <div class="like-box">
+                        <hr class="hr">
+                        <ul class="flex like-box-items">
+                            <li>
+                                <a href="" class="flex">
+                                    <img src="img/react/like.png" alt=""> React
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="flex">
+                                    <img src="img/react/comment.png" alt=""> Comment
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="flex">
+                                    <img src="img/react/share.png" alt=""> Share
+                                </a>
+                            </li>
+                        </ul>
+                        <hr class="hr">
+                        <div class="comment-input flex">
+                            <img class="profile-img" src="img/users/profile.jpg" alt="">
+                            <input type="text" placeholder="Write your comment">
+                        </div>
+                    </div>
+                </article>
+
             </div>
-            <div class="main-middle"></div>
-            <div class="main-right"></div>
+            <aside class="main-right">
+                <div class="left-menu-items">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img class="left-profile-img" src="img/users/profile.jpg" alt="">
+                                <span id="username">Sikder Mohammad Arif</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/friends.png" alt=""> Friends</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/group.png" alt="">Groups</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/page.png" alt="">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/market.png" alt="">Market</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/video.png" alt="">Watch</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/leftmenuicons/messenger.png" alt="">Messenger</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="hr">
+                <div class="left-users-groups">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/groupimg/g1.jpg" alt=""> BM College</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/groupimg/g2.png" alt=""> Mirachle</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/groupimg/g3.jpg" alt=""> Jibonta Tajpata</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
         </section>
     </main>
-    <!-- Footer area -->
-    <footer></footer>
 </body>
 
 </html>

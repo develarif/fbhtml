@@ -15,7 +15,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
     background: #F0F2F5;
     color: #141516;
 }
@@ -32,12 +31,13 @@ a {
 
 input {
     margin-left: 20px;
-    padding: 8px 10px;
+    padding: 10px 12px;
     border: 1px solid #d0d0d0;
     border-radius: 30px;
     color: #141516;
     font-size: 12px;
     font-weight: 200;
+    width: 100%;
 }
 
 input:focus {
@@ -52,10 +52,41 @@ input:focus {
     align-items: center;
 }
 
+.align-top {
+    align-items: flex-start !important;
+}
+
 .img-bg-gray {
     background: #D8DADF;
     padding: 8px;
     border-radius: 50%;
+}
+
+.hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.li-hover {
+
+}
+
+.main-left {
+    flex-grow: 2;
+    margin-right: 50px;
+}
+
+.main-middle {
+    flex-grow: 6;
+    margin: 0 200px;
+}
+
+.main-right {
+    flex-grow: 2;
+    margin-left: 50px;
 }
 
 /* Header Area Styles */
@@ -90,10 +121,131 @@ header {
 }
 
 
+
 .menu-bar li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .menu-bar li img {
     width: 30px
+}
+
+/* Main Area Stylign */
+
+main {
+    padding-top: 30px;
+}
+
+.left-menu-items ul li,
+.left-users-groups ul li {
+    margin-bottom: 10px;
+}
+
+.left-menu-items ul li a,
+.left-users-groups ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.left-menu-items ul li a img {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#username {
+    font-size: 16px;
+}
+
+.left-users-groups ul li a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Main Area Styling */
+
+.tool-box {
+    justify-content: space-evenly;
+}
+
+.tool-box img {
+    height: 22px;
+    width: auto;
+}
+
+.tool-box span {
+    margin-left: 10px;
+}
+
+.status-editor {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 0px #f0f0f0;
+}
+
+.status-editor .input-box textarea {
+    width: 100%;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    color: #141516;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px;
+}
+
+textarea:focus {
+    border: 1px solid #d5d5d5;
+    outline: 0;
+}
+
+.user-status {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px 0px #f0f0f0;
+    margin-top: 30px;
+}
+
+.status-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.status-info .status-privacy  img {
+    width: 12px;
+}
+
+.status-privacy small {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.status-text {
+    margin: 20px 0;
+}
+
+.status-media img {
+    width: 100%;
+}
+
+.like-box {
+    margin-top: 25px;
+}
+
+.like-box ul li a img{
+    width: auto;
+    height: 22px;
+    margin-right: 8px;
+}
+
+.like-box-items {
+    justify-content: space-evenly;
 }
