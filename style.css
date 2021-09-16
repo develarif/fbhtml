@@ -1,0 +1,99 @@
+/*
+* Import font from google font
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/*
+* Basic styling and appearance
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background: #F0F2F5;
+    color: #141516;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #141516;
+}
+
+input {
+    margin-left: 20px;
+    padding: 8px 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 30px;
+    color: #141516;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+input:focus {
+    border: 1px solid #d0d0d0;
+    outline: 0;
+}
+
+/* Common Class Styling */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.img-bg-gray {
+    background: #D8DADF;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+/* Header Area Styles */
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 2px #eeeeee;
+    padding: 4px 0 4px;
+}
+
+.nav-area {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+}
+
+.header-right img {
+    width: 18px;
+}
+
+.profile-img {    
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.notification-area li {
+    margin: 0 8px;
+}
+
+
+.menu-bar li {
+    margin: 0 15px;
+}
+
+.menu-bar li img {
+    width: 30px
+}
